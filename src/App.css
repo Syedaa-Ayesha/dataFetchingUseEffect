@@ -1,0 +1,36 @@
+*{
+  /* outline: 1px solid red; */
+}
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height:100vh;
+  height: max-content;
+  width: 100%;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.container{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: max-content;
+  width: 80%;
+  padding: 20px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+gap: 15px;
+flex-wrap: wrap;
+}
+.row{
+  height: 200px;
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 7px 10px;
+}
+.p{
+  width: 190px;
+}
